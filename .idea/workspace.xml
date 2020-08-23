@@ -13,11 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abeba7f-2d5a-46b4-a6e2-99e6f368d9cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="0abeba7f-2d5a-46b4-a6e2-99e6f368d9cb" name="Default Changelist" comment="web app aplikacji">
+      <change afterPath="$PROJECT_DIR$/SQL/create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/drop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +40,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT&#10;JAVA" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -65,8 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598184008121</updated>
-      <workItem from="1598184009287" duration="1106000" />
+      <workItem from="1598184009287" duration="4595000" />
     </task>
+    <task id="LOCAL-00001" summary="web app aplikacji">
+      <created>1598185130450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598185130450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +92,39 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="web app aplikacji" />
+    <option name="LAST_COMMIT_MESSAGE" value="web app aplikacji" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="182" key="#SQL_Dialects" timestamp="1598189108932">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="182" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1598189108932" />
+    <state x="335" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598187079487">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="335" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598187079487" />
+    <state width="845" height="163" key="GridCell.Tab.0.bottom" timestamp="1598189026804">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598189026804" />
+    <state width="845" height="163" key="GridCell.Tab.0.center" timestamp="1598189026804">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598189026804" />
+    <state width="845" height="163" key="GridCell.Tab.0.left" timestamp="1598189026803">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598189026803" />
+    <state width="845" height="163" key="GridCell.Tab.0.right" timestamp="1598189026804">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598189026804" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598185476789">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598185476789" />
   </component>
 </project>
