@@ -1,0 +1,17 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- JDBC Database connection settings -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://remotemysql.com:3306/T4BZqkJXE9</property>
+        <property name="connection.username">T4BZqkJXE9</property>
+        <property name="connection.password">m2iCNvprQM</property>
+        <!-- JDBC connection pool settings ... using built-in test pool -->
+        <property name="connection.pool_size">1</property>
+        <!-- Select our SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- Echo the SQL to stdout -->
+        <property name="show_sql">true</property>
+
+        <mapping class="pl.sda.twitter.peristance.entities.TbUser"/>
+    </session-factory>
+</hibernate-configuration>
