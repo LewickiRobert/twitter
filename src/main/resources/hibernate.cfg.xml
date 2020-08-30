@@ -13,5 +13,6 @@
         <property name="show_sql">true</property>
 
         <mapping class="pl.sda.twitter.peristance.entities.TbUser"/>
+        <mapping class="pl.sda.twitter.peristance.entities.TbArticle"/>
     </session-factory>
 </hibernate-configuration>
