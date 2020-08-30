@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!doctype html>
 <html lang="en">
@@ -25,6 +26,8 @@
                 <form class="form-signin" method="post" action="login">
                     <img class="mb-4" src="https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg" alt=""
                          width="72" height="72">
+                    <%--message--%>
+                    <jsp:include page="include/message.jsp"/>
                     <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
                     <label for="inputLogin" class="sr-only">Login</label>
                     <input type="text" id="inputLogin" name="login" class="form-control" placeholder="Login" required
@@ -42,7 +45,6 @@
             </div>
         </div>
     </div>
-
 
 </main>
 <jsp:include page="include/footer.jsp"/>
